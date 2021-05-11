@@ -11,7 +11,6 @@ public class FileIO {
         HashMap<Character,Integer> count=new HashMap<>();
         FileReader fin = new FileReader(inputFile);
         BufferedReader br=new BufferedReader(fin);
-
         String line;
         while((line=br.readLine())!=null)
         {

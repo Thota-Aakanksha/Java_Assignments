@@ -63,6 +63,7 @@ public class Main extends ConcreteParentClass implements CombinedInterface{
         object.methodInterface2(object);
         object.methodInterface3(object);
         object.methodCombinedInterface(object);
+
     }
 
 }
